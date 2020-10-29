@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://whatsapp:w12345@whatsapp.wpmiy.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "amazonsecret": "amazon_secret"
+}
