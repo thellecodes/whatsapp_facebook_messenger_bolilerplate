@@ -39,9 +39,7 @@ function Login({navigation}: LoginProps) {
   const onLogin = () => {
     new Promise(function (res) {
       res(dispatch(login({email, password})));
-    }).then(() => {
-      socket.emit('getUsers');
-    });
+    }).then(() => {});
   };
 
   const setToken = async (token: string) => {
@@ -59,7 +57,6 @@ function Login({navigation}: LoginProps) {
     const {isAuthenticated, token} = auth;
     setToken(token);
     if (isAuthenticated) {
-      nNavigate('Users');
     }
   }, [auth]);
 

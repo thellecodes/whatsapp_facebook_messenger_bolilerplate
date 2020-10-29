@@ -1,4 +1,4 @@
-//** Amazon Auth Types */
+//** Auth Types */
 export const USER_LOADING = 'USER_LOADING';
 export const USER_LOADED = 'USER_LOADED';
 export const AUTH_ERROR = 'AUTH_ERROR';
@@ -9,16 +9,6 @@ export const REG_LOADING = 'REG_LOADING';
 export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
 export const REGISTER_FAIL = 'REGISTER_FAIL';
 export const LOG_LOADING = 'LOG_LOADING';
-
-//** Chat Actions */
-export const ALL_USERS = 'ALL_USERS';
-export const ACTIVE_ROOM = 'ACTIVE_ROOM';
-export const ACTIVE_USER = 'ACTIVE_USER';
-export const ADD_MESSAGE = 'ADD_MESSAGE';
-export const INJECT_MESSAGE = 'INJECT_MESSAGE';
-export const LOAD_MESSAGES = 'LOAD_MESSAGES';
-export const ACTIVE_ROOM_MSGS = 'ACTIVE_ROOM_MSGS';
-export const CLEAR_ACTIVE_MSGS = 'CLEAR_ACTIVE_MSGS';
 
 //** Error Types */
 export const GET_ERRORS = 'GET_ERRORS';

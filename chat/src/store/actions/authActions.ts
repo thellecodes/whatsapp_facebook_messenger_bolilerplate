@@ -42,7 +42,6 @@ export const register = ({
     .then((res) => {
       dispatch({type: CLEAR_ERRORS, payload: null});
       dispatch({type: REGISTER_SUCCESS, payload: res.data});
-      socket.emit('getUsers');
     })
     .catch((err) => {
       dispatch({type: REGISTER_FAIL, payload: null});
